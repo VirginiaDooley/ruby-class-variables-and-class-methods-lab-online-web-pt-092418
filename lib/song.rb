@@ -20,7 +20,7 @@ class Song
   end
   
   def self.artists
-    #check array 
+    artists.uniq
   end 
   
   def self.genres
